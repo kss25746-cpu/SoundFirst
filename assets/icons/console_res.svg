@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1290 300" width="1290" height="300">
+  <defs>
+    <linearGradient id="conMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9aa0a8" />
+      <stop offset="16%" stop-color="#6a6f78" />
+      <stop offset="42%" stop-color="#3e4248" />
+      <stop offset="68%" stop-color="#2a2d32" />
+      <stop offset="100%" stop-color="#16181b" />
+    </linearGradient>
+    <linearGradient id="conMetalEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d5d8de" />
+      <stop offset="18%" stop-color="#8b9098" />
+      <stop offset="82%" stop-color="#2c2f34" />
+      <stop offset="100%" stop-color="#0c0d0f" />
+    </linearGradient>
+    <linearGradient id="conGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0d48a" />
+      <stop offset="45%" stop-color="#c9a24e" />
+      <stop offset="100%" stop-color="#8a6824" />
+    </linearGradient>
+    <linearGradient id="conSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14" />
+      <stop offset="38%" stop-color="#ffffff" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28" />
+    </linearGradient>
+    <linearGradient id="conDivider" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="18%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#000000" stop-opacity="0.35" />
+      <stop offset="82%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="conCarbon" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#101010" />
+      <rect width="3" height="3" fill="#1a1a1a" />
+      <rect x="3" y="3" width="3" height="3" fill="#1a1a1a" />
+      <rect x="3" y="0" width="3" height="3" fill="#141414" />
+      <rect x="0" y="3" width="3" height="3" fill="#141414" />
+    </pattern>
+    <pattern id="conGrain" width="8" height="4" patternUnits="userSpaceOnUse">
+      <rect width="8" height="4" fill="transparent" />
+      <path d="M0 1h8" stroke="#ffffff" stroke-opacity="0.05" stroke-width="0.6" />
+      <path d="M0 3h8" stroke="#000000" stroke-opacity="0.08" stroke-width="0.5" />
+    </pattern>
+  </defs>
+
+  <g transform="translate(1290 0) scale(-1 1)">
+    <rect x="8" y="12" width="1274" height="280" rx="54" fill="#000000" opacity="0.4" />
+    <rect x="3" y="3" width="1284" height="290" rx="56" fill="url(#conMetalEdge)" />
+    <rect x="8" y="8" width="1274" height="280" rx="52" fill="url(#conMetal)" />
+    <rect x="8" y="8" width="1274" height="280" rx="52" fill="url(#conGrain)" />
+
+    <rect x="36" y="36" width="1218" height="228" rx="38" fill="#0b0b0b" />
+    <rect x="40" y="40" width="1210" height="220" rx="34" fill="none" stroke="url(#conGold)" stroke-width="2.4" />
+    <rect x="48" y="48" width="1194" height="204" rx="28" fill="url(#conCarbon)" />
+    <rect x="48" y="48" width="1194" height="204" rx="28" fill="url(#conSheen)" />
+
+    <rect x="643" y="72" width="4" height="156" rx="2" fill="url(#conDivider)" />
+
+    <g transform="translate(1238 252)" opacity="0.88">
+      <path d="M0-11 L1.6-1.6 L11 0 L1.6 1.6 L0 11 L-1.6 1.6 L-11 0 L-1.6-1.6 Z" fill="#ffffff" />
+    </g>
+  </g>
+</svg>

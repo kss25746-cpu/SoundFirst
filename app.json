@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "청능0708",
+    "slug": "chongnyeon0708",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/splash.png",
+    "scheme": "threadc",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash.png",
+        "backgroundColor": "#c9c9c9"
+      },
+      "package": "com.vlondy.threadsclone"
+    },
+  
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "imageWidth": 300,
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font",
+      "expo-audio",
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
